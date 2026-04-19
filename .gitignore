@@ -1,5 +1,4 @@
 .DS_Store
-.gitignore
 node_modules
 public
 prof
@@ -9,3 +8,6 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+content/.obsidian/
+*.pdf
+NTUSER.DAT*
