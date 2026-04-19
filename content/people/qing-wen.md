@@ -11,31 +11,35 @@ projects: [neuro-data-hub, lang1-finetune, datahub-agent]
 
 ## Active Projects
 
-```dataview
-TABLE status, start, end
-FROM ""
-WHERE type = "project" AND owners AND contains(owners, "Qing Wen")
-SORT status ASC
-```
+| Project | Owner(s) | Start | End | Status |
+|---|---|---|---|---|
+| [Datahub Agent MVP](/Q2-2026/projects/datahub-agent) | Qing Wen | 2026-04-01 | 2026-06-30 | ongoing |
+| [Lang1 Finetune](/Q2-2026/projects/lang1-finetune) | Jessica Zhou, Qing Wen | 2026-03-01 | 2026-06-30 | ongoing |
+| [Neuro Data Hub](/Q2-2026/projects/neuro-data-hub) | Qing Wen | 2026-01-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 
-```tasks
-tags include #qing
-not done
-path does not include _template
-sort by due
-group by filename
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #qing #neurodatahub 📅 2026-04-25
+- [ ] #qing #datahub-agent 📅 2026-04-25
+
 
 ## Completed Tasks
 
-```tasks
-tags include #qing
-done
-sort by done date
-limit 10
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #qing #neurodatahub 📅 2026-04-25
+- [ ] #qing #datahub-agent 📅 2026-04-25
+
 
 ## Q2 2026 Goals
 

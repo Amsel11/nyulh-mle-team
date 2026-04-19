@@ -11,31 +11,31 @@ projects: [enroot-guide-dissemination]
 
 ## Active Projects
 
-```dataview
-TABLE status, start, end
-FROM ""
-WHERE type = "project" AND owners AND contains(owners, "Vivian Lee")
-SORT status ASC
-```
+| Project | Owner(s) | Start | End | Status |
+|---|---|---|---|---|
+| [Enroot Guide Dissemination](/Q2-2026/projects/enroot-guide-dissemination) | Vivian Lee, Annelene Schulze | 2026-01-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 
-```tasks
-tags include #vivian
-not done
-path does not include _template
-sort by due
-group by filename
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #vivian #enroot 📅 2026-04-25
+
 
 ## Completed Tasks
 
-```tasks
-tags include #vivian
-done
-sort by done date
-limit 10
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #vivian #enroot 📅 2026-04-25
+
 
 ## Q2 2026 Goals
 

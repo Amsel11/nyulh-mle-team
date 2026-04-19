@@ -11,31 +11,39 @@ projects: [medgemma-deployment, inference-node-maintenance, inference-node-user-
 
 ## Active Projects
 
-```dataview
-TABLE status, start, end
-FROM ""
-WHERE type = "project" AND owners AND contains(owners, "Xu Han")
-SORT status ASC
-```
+| Project | Owner(s) | Start | End | Status |
+|---|---|---|---|---|
+| [NYULH Image Database Benchmark](/Q2-2026/projects/done/nyulh-image-database-benchmark) | Xu Han | 2025-12-01 | 2026-02-28 | done |
+| [Refactor Inference Node](/Q2-2026/projects/done/refactor-inference-node) | Xu Han | 2026-01-01 | 2026-02-28 | done |
+| [Inference Node Maintenance](/Q2-2026/projects/inference-node-maintenance) | Xu Han | 2026-02-01 | 2026-12-31 | ongoing |
+| [Inference Node User Management](/Q2-2026/projects/inference-node-user-management) | Xu Han | 2026-04-01 | 2026-05-31 | ongoing |
+| [MedGemma Deployment](/Q2-2026/projects/medgemma-deployment) | Xu Han | 2026-02-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 
-```tasks
-tags include #xu
-not done
-path does not include _template
-sort by due
-group by filename
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Complete Kong auth security review #xu #medgemma 📅 2026-04-18
+- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #xu #medgemma 📅 2026-04-25
+- [ ] #xu #node-mgmt 📅 2026-04-25
+
 
 ## Completed Tasks
 
-```tasks
-tags include #xu
-done
-sort by done date
-limit 10
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Complete Kong auth security review #xu #medgemma 📅 2026-04-18
+- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #xu #medgemma 📅 2026-04-25
+- [ ] #xu #node-mgmt 📅 2026-04-25
+
 
 ## Q2 2026 Goals
 

@@ -11,31 +11,36 @@ projects: [lang1-finetune, nyulh-aiehr]
 
 ## Active Projects
 
-```dataview
-TABLE status, start, end
-FROM ""
-WHERE type = "project" AND owners AND contains(owners, "Jessica Zhou")
-SORT status ASC
-```
+| Project | Owner(s) | Start | End | Status |
+|---|---|---|---|---|
+| [Lang1 Finetune](/Q2-2026/projects/lang1-finetune) | Jessica Zhou, Qing Wen | 2026-03-01 | 2026-06-30 | ongoing |
+| [NYULH-AIEHR (EKO)](/Q2-2026/projects/nyulh-aiehr) | Jessica Zhou | 2026-05-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 
-```tasks
-tags include #jessica
-not done
-path does not include _template
-sort by due
-group by filename
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
+- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #jessica #aiehr 📅 2026-04-25
+- [ ] #jessica #lang1 📅 2026-04-25
+
 
 ## Completed Tasks
 
-```tasks
-tags include #jessica
-done
-sort by done date
-limit 10
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
+- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #jessica #aiehr 📅 2026-04-25
+- [ ] #jessica #lang1 📅 2026-04-25
+
 
 ## Q2 2026 Goals
 

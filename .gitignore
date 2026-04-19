@@ -11,3 +11,5 @@ replit.nix
 content/.obsidian/
 *.pdf
 NTUSER.DAT*
+content/.claude/
+content/*.md.tmp

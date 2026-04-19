@@ -35,44 +35,43 @@ Finalize and disseminate formal Enroot documentation for all NYULH HPC users in 
 
 > Notes written under this project's heading in any weekly meeting are pulled in automatically.
 
-```dataviewjs
-const slug = dv.current().file.name;
-const path = dv.current().file.path;
-const meetings = dv.pages('').where(p => p.file.path.includes('/meetings/') && !p.file.name.startsWith('_'))
+> *Auto-rendered from meeting notes.*
 
-  .where(p => p.file.outlinks.some(l => l.path === path))
-  .sort(p => p.file.day, "desc");
-if (meetings.length === 0) { dv.paragraph("*No meeting notes yet.*"); }
-else { for (const m of meetings) {
-  const lines = (await dv.io.load(m.file.path)).split("\n");
-  let on = false; const notes = [];
-  for (const l of lines) {
-    if (!on && l.match(/^###?\s/) && l.includes(slug)) { on = true; continue; }
-    if (on && l.match(/^##\s/)) break;
-    if (on && l.match(/^###\s/) && !l.includes(slug)) break;
-    if (on && l.trim().startsWith("- ") && !l.includes("- [ ]") && !l.includes("- [x]"))
-      notes.push(l.trim().slice(2));
-  }
-  if (notes.length) { dv.header(5, m.file.link + " · " + (m.date ?? "")); dv.list(notes); }
-}}
-```
+##### [2026-04-14-weekly-meeting](../meetings/2026-04-14-weekly-meeting) · 2026-04-14
+- Received written feedback from HPC team on draft
+- Two sections need rewriting based on HPC comments
+
+##### [2026-03-24-q1-updates](../meetings/2026-03-24-q1-updates) · 2026-03-24
+- Vivian: Created + disseminated survey to current Enroot users at NYULH
+- Vivian: Aggregated survey results for integration into documentation
+- Annelene + Vivian + Xu: Prepared presentation for HPC and MCIT leaders
+- Collaborating with HPC to write formal documentation for all NYULH HPC users
 
 ## Open Tasks
 
-```tasks
-tags include #enroot
-not done
-sort by due
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
+- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #vivian #enroot 📅 2026-04-25
+- [ ] #annelene #enroot 📅 2026-04-25
+
 
 ## Completed Tasks
 
-```tasks
-tags include #enroot
-done
-sort by done date
-limit 10
-```
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
+- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #vivian #enroot 📅 2026-04-25
+- [ ] #annelene #enroot 📅 2026-04-25
+
 
 ## Status Log
 
