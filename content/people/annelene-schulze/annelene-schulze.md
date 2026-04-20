@@ -20,16 +20,6 @@ projects: [enroot-guide-dissemination, superpod-dashboard]
 
 *Open tasks — static snapshot from last sync:*
 
-**[annelene-schulze](/people/annelene-schulze)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] #annelene #enroot 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] #annelene #enroot 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
 - [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
@@ -37,34 +27,12 @@ projects: [enroot-guide-dissemination, superpod-dashboard]
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
 - [ ] #annelene #superpod 📅 2026-04-25
 - [ ] #annelene #enroot 📅 2026-04-25
-
-**[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination)**
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #enroot 📅 2026-04-25
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #enroot 📅 2026-04-25
-
-**[superpod-dashboard](/Q2-2026/projects/superpod-dashboard)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
 
 
 ## Completed Tasks
 
 *Open tasks — static snapshot from last sync:*
 
-**[annelene-schulze](/people/annelene-schulze)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] #annelene #enroot 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] #annelene #enroot 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
 - [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
@@ -72,18 +40,6 @@ projects: [enroot-guide-dissemination, superpod-dashboard]
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
 - [ ] #annelene #superpod 📅 2026-04-25
 - [ ] #annelene #enroot 📅 2026-04-25
-
-**[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination)**
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #enroot 📅 2026-04-25
-- [ ] Review Vivian's section rewrites before submission #annelene #enroot 📅 2026-04-18
-- [ ] #annelene #enroot 📅 2026-04-25
-
-**[superpod-dashboard](/Q2-2026/projects/superpod-dashboard)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
 
 
 ## Q2 2026 Goals

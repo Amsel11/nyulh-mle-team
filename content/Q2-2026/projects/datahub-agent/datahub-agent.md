@@ -42,22 +42,10 @@ Build an MVP of an AI agent for the datahub.
 
 *Open tasks — static snapshot from last sync:*
 
-**[qing-wen](/people/qing-wen)**
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
-- [ ] #qing #datahub-agent 📅 2026-04-25
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
-- [ ] #qing #datahub-agent 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #qing #datahub-agent 📅 2026-04-25
-
-**[datahub-agent](/Q2-2026/projects/datahub-agent)**
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
-- [ ] #qing #datahub-agent 📅 2026-04-25
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
 - [ ] #qing #datahub-agent 📅 2026-04-25
 
 
@@ -65,22 +53,10 @@ Build an MVP of an AI agent for the datahub.
 
 *Open tasks — static snapshot from last sync:*
 
-**[qing-wen](/people/qing-wen)**
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
-- [ ] #qing #datahub-agent 📅 2026-04-25
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
-- [ ] #qing #datahub-agent 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #qing #datahub-agent 📅 2026-04-25
-
-**[datahub-agent](/Q2-2026/projects/datahub-agent)**
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
-- [ ] #qing #datahub-agent 📅 2026-04-25
-- [ ] Draft datahub agent architecture document #qing #datahub-agent 📅 2026-04-18
 - [ ] #qing #datahub-agent 📅 2026-04-25
 
 

@@ -51,15 +51,7 @@ Manage and expand the NeuroDataHub: fulfill data requests, onboard new users, an
 
 *Open tasks — static snapshot from last sync:*
 
-**[qing-wen](/people/qing-wen)**
-- [ ] #qing #neurodatahub 📅 2026-04-25
-- [ ] #qing #neurodatahub 📅 2026-04-25
-
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #qing #neurodatahub 📅 2026-04-25
-
-**[neuro-data-hub](/Q2-2026/projects/neuro-data-hub)**
-- [ ] #qing #neurodatahub 📅 2026-04-25
 - [ ] #qing #neurodatahub 📅 2026-04-25
 
 
@@ -67,15 +59,7 @@ Manage and expand the NeuroDataHub: fulfill data requests, onboard new users, an
 
 *Open tasks — static snapshot from last sync:*
 
-**[qing-wen](/people/qing-wen)**
-- [ ] #qing #neurodatahub 📅 2026-04-25
-- [ ] #qing #neurodatahub 📅 2026-04-25
-
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #qing #neurodatahub 📅 2026-04-25
-
-**[neuro-data-hub](/Q2-2026/projects/neuro-data-hub)**
-- [ ] #qing #neurodatahub 📅 2026-04-25
 - [ ] #qing #neurodatahub 📅 2026-04-25
 
 

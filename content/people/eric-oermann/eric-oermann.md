@@ -13,19 +13,11 @@ projects: []
 
 *Open tasks — static snapshot from last sync:*
 
-**[eric-oermann](/people/eric-oermann)**
-- [ ] Follow up with PAU team on integration timeline #EKO #medgemma 📅 2026-04-18
-- [ ] #EKO 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Follow up with PAU team on integration timeline #EKO #medgemma 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
 - [ ] #EKO 📅 2026-04-25
-
-**[medgemma-deployment](/Q2-2026/projects/medgemma-deployment)**
-- [ ] Follow up with PAU team on integration timeline #EKO #medgemma 📅 2026-04-18
-- [ ] Follow up with PAU team on integration timeline #EKO #medgemma 📅 2026-04-18
 
 
 ## Team Projects Overview

@@ -46,22 +46,10 @@ Supervised fine-tuning (SFT) of the Lang1 model.
 
 *Open tasks — static snapshot from last sync:*
 
-**[jessica-zhou](/people/jessica-zhou)**
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #jessica #lang1 📅 2026-04-25
-
-**[lang1-finetune](/Q2-2026/projects/lang1-finetune)**
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
 - [ ] #jessica #lang1 📅 2026-04-25
 
 
@@ -69,22 +57,10 @@ Supervised fine-tuning (SFT) of the Lang1 model.
 
 *Open tasks — static snapshot from last sync:*
 
-**[jessica-zhou](/people/jessica-zhou)**
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #jessica #lang1 📅 2026-04-25
-
-**[lang1-finetune](/Q2-2026/projects/lang1-finetune)**
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
 - [ ] #jessica #lang1 📅 2026-04-25
 
 

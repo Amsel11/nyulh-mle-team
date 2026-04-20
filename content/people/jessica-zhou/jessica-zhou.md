@@ -20,16 +20,6 @@ projects: [lang1-finetune, nyulh-aiehr]
 
 *Open tasks — static snapshot from last sync:*
 
-**[jessica-zhou](/people/jessica-zhou)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] #jessica #lang1 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
 - [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
@@ -37,34 +27,12 @@ projects: [lang1-finetune, nyulh-aiehr]
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
 - [ ] #jessica #aiehr 📅 2026-04-25
 - [ ] #jessica #lang1 📅 2026-04-25
-
-**[lang1-finetune](/Q2-2026/projects/lang1-finetune)**
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-
-**[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
 
 
 ## Completed Tasks
 
 *Open tasks — static snapshot from last sync:*
 
-**[jessica-zhou](/people/jessica-zhou)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] #jessica #lang1 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
 - [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
@@ -72,18 +40,6 @@ projects: [lang1-finetune, nyulh-aiehr]
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
 - [ ] #jessica #aiehr 📅 2026-04-25
 - [ ] #jessica #lang1 📅 2026-04-25
-
-**[lang1-finetune](/Q2-2026/projects/lang1-finetune)**
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-- [ ] Finish SFT environment setup with Qing #jessica #lang1 📅 2026-04-18
-- [ ] #jessica #lang1 📅 2026-04-25
-
-**[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
 
 
 ## Q2 2026 Goals

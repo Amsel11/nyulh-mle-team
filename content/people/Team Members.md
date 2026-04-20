@@ -7,17 +7,11 @@ type: index
 | Person | Role |
 |---|---|
 | [Annelene Schulze](/people/annelene-schulze/annelene-schulze) | MLE Engineer |
-| [Annelene Schulze](/people/annelene-schulze) | MLE Engineer |
 | [Eric Oermann](/people/eric-oermann/eric-oermann) | PI / Team Lead |
-| [Eric Oermann](/people/eric-oermann) | PI / Team Lead |
 | [Jessica Zhou](/people/jessica-zhou/jessica-zhou) | MLE Engineer |
-| [Jessica Zhou](/people/jessica-zhou) | MLE Engineer |
 | [Qing Wen](/people/qing-wen/qing-wen) | MLE / Data Engineer |
-| [Qing Wen](/people/qing-wen) | MLE / Data Engineer |
 | [Vivian Lee](/people/vivian-lee/vivian-lee) | MLE Engineer |
-| [Vivian Lee](/people/vivian-lee) | MLE Engineer |
 | [Xu Han](/people/xu-han/xu-han) | MLE Engineer |
-| [Xu Han](/people/xu-han) | MLE Engineer |
 
 ---
 

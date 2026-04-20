@@ -39,22 +39,10 @@ Finalize the Superpod dashboard (May 2026) and produce a usage report (End of Q2
 
 *Open tasks — static snapshot from last sync:*
 
-**[annelene-schulze](/people/annelene-schulze)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #annelene #superpod 📅 2026-04-25
-
-**[superpod-dashboard](/Q2-2026/projects/superpod-dashboard)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
 - [ ] #annelene #superpod 📅 2026-04-25
 
 
@@ -62,22 +50,10 @@ Finalize the Superpod dashboard (May 2026) and produce a usage report (End of Q2
 
 *Open tasks — static snapshot from last sync:*
 
-**[annelene-schulze](/people/annelene-schulze)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #annelene #superpod 📅 2026-04-25
-
-**[superpod-dashboard](/Q2-2026/projects/superpod-dashboard)**
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
-- [ ] #annelene #superpod 📅 2026-04-25
-- [ ] Implement usage metrics panel #annelene #superpod 📅 2026-04-18
 - [ ] #annelene #superpod 📅 2026-04-25
 
 

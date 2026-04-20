@@ -19,22 +19,10 @@ projects: [enroot-guide-dissemination]
 
 *Open tasks — static snapshot from last sync:*
 
-**[vivian-lee](/people/vivian-lee)**
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
-- [ ] #vivian #enroot 📅 2026-04-25
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
-- [ ] #vivian #enroot 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #vivian #enroot 📅 2026-04-25
-
-**[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination)**
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
-- [ ] #vivian #enroot 📅 2026-04-25
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
 - [ ] #vivian #enroot 📅 2026-04-25
 
 
@@ -42,22 +30,10 @@ projects: [enroot-guide-dissemination]
 
 *Open tasks — static snapshot from last sync:*
 
-**[vivian-lee](/people/vivian-lee)**
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
-- [ ] #vivian #enroot 📅 2026-04-25
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
-- [ ] #vivian #enroot 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #vivian #enroot 📅 2026-04-25
-
-**[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination)**
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
-- [ ] #vivian #enroot 📅 2026-04-25
-- [ ] Finalize section 3 and section 5 of Enroot guide #vivian #enroot 📅 2026-04-18
 - [ ] #vivian #enroot 📅 2026-04-25
 
 

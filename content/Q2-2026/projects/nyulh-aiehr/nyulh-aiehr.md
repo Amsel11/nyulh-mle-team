@@ -48,22 +48,10 @@ Build out the NYULH ambient AI EHR scribe app (NYULH-AIEHR) in collaboration wit
 
 *Open tasks — static snapshot from last sync:*
 
-**[jessica-zhou](/people/jessica-zhou)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #jessica #aiehr 📅 2026-04-25
-
-**[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
 - [ ] #jessica #aiehr 📅 2026-04-25
 
 
@@ -71,22 +59,10 @@ Build out the NYULH ambient AI EHR scribe app (NYULH-AIEHR) in collaboration wit
 
 *Open tasks — static snapshot from last sync:*
 
-**[jessica-zhou](/people/jessica-zhou)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #jessica #aiehr 📅 2026-04-25
-
-**[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr)**
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
-- [ ] #jessica #aiehr 📅 2026-04-25
-- [ ] Analyze STT transcript eval results and write up findings #jessica #aiehr 📅 2026-04-18
 - [ ] #jessica #aiehr 📅 2026-04-25
 
 

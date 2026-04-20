@@ -47,13 +47,22 @@ function frontmatterDate(text, filename) {
 
 if (COPY_FROM_VAULT) {
   console.log("Copying vault…")
-  copyDir(VAULT, CONTENT, [/^\.obsidian$/, /\.pdf$/, /^Welcome\.md$/, /^NTUSER/, /^README\.md$/])
 
-  // MAIN Dashboard.md or README.md → index.md (homepage)
+  // Wipe managed directories first so renamed/moved files don't leave stale copies
+  for (const dir of ["Q2-2026", "Q3-2026", "people"]) {
+    const t = path.join(CONTENT, dir)
+    if (fs.existsSync(t)) fs.rmSync(t, { recursive: true, force: true })
+  }
+  // Remove stray root-level .md files except index.md
+  for (const f of fs.readdirSync(CONTENT)) {
+    if (f.endsWith(".md") && f !== "index.md") fs.rmSync(path.join(CONTENT, f))
+  }
+
+  copyDir(VAULT, CONTENT, [/^\.obsidian$/, /\.pdf$/, /^Welcome\.md$/, /^NTUSER/, /^README\.md$/, /^_template\.md$/])
+
+  // MAIN Dashboard.md → index.md (homepage)
   const dashboard = path.join(CONTENT, "MAIN Dashboard.md")
-  const readme = path.join(CONTENT, "README.md")
   if (fs.existsSync(dashboard)) fs.copyFileSync(dashboard, path.join(CONTENT, "index.md"))
-  else if (fs.existsSync(readme)) fs.copyFileSync(readme, path.join(CONTENT, "index.md"))
 } else {
   console.log("In-place mode (GitHub Actions) — skipping vault copy")
 }
@@ -144,24 +153,35 @@ for (const f of walkMd(CONTENT)) {
 
   // Replace each ```tasks ... ``` block with a static snapshot
   text = text.replace(/```tasks\n([\s\S]*?)```/g, (_, query) => {
-    const isMilestone = query.includes("#milestone")
+    // Detect intent precisely — "does not include" must not trigger isMilestone
+    const isMilestone = /tag(s)?\s+include\s+#milestone/.test(query)
+    const excludeMilestone = query.includes("does not include #milestone")
     const personMatch = query.match(/tags include (#\w+)/)
     const isDueThisWeek = query.includes("due this week")
+    const dueBefore = (query.match(/due before (\d{4}-\d{2}-\d{2})/) || [])[1]
 
     let filtered = allTasks.filter((t) => {
       if (t.file.includes("_template")) return false
       if (isMilestone) return t.text.includes("#milestone")
+      if (excludeMilestone && t.text.includes("#milestone")) return false
       if (personMatch) return t.text.includes(personMatch[1])
       return true
     })
 
+    // Filter by due date when specified
+    if (dueBefore) {
+      filtered = filtered.filter((t) => {
+        const d = (t.text.match(/📅\s*(\d{4}-\d{2}-\d{2})/) || [])[1]
+        return d && d < dueBefore
+      })
+    }
+
     if (isDueThisWeek) {
-      // Keep tasks that have a due date emoji
       filtered = filtered.filter((t) => t.text.includes("📅"))
     }
 
-    // Exclude milestones from non-milestone queries
-    if (!isMilestone) filtered = filtered.filter((t) => !t.text.includes("#milestone"))
+    // Default: exclude milestones unless explicitly requested
+    if (!isMilestone && !excludeMilestone) filtered = filtered.filter((t) => !t.text.includes("#milestone"))
 
     if (filtered.length === 0) return "> *No open tasks.*"
 

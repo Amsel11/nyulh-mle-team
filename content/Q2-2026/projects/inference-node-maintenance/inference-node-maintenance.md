@@ -39,28 +39,10 @@ Maintain deployed models on the inference node to ensure reliability and uptime.
 
 *Open tasks — static snapshot from last sync:*
 
-**[xu-han](/people/xu-han)**
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #xu #node-mgmt 📅 2026-04-25
-
-**[inference-node-maintenance](/Q2-2026/projects/inference-node-maintenance)**
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-
-**[inference-node-user-management](/Q2-2026/projects/inference-node-user-management)**
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
 - [ ] #xu #node-mgmt 📅 2026-04-25
 
 
@@ -68,28 +50,10 @@ Maintain deployed models on the inference node to ensure reliability and uptime.
 
 *Open tasks — static snapshot from last sync:*
 
-**[xu-han](/people/xu-han)**
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-
 **[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
 - [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
 
 **[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
-- [ ] #xu #node-mgmt 📅 2026-04-25
-
-**[inference-node-maintenance](/Q2-2026/projects/inference-node-maintenance)**
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-
-**[inference-node-user-management](/Q2-2026/projects/inference-node-user-management)**
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
-- [ ] #xu #node-mgmt 📅 2026-04-25
-- [ ] Share auth schema with EKO for sign-off #xu #node-mgmt 📅 2026-04-18
 - [ ] #xu #node-mgmt 📅 2026-04-25
 
 
