@@ -49,7 +49,7 @@ if (COPY_FROM_VAULT) {
   console.log("Copying vault…")
 
   // Wipe managed directories first so renamed/moved files don't leave stale copies
-  for (const dir of ["Q2-2026", "Q3-2026", "people"]) {
+  for (const dir of ["Q2-2026", "Q3-2026", "people", "Team Members"]) {
     const t = path.join(CONTENT, dir)
     if (fs.existsSync(t)) fs.rmSync(t, { recursive: true, force: true })
   }
@@ -66,6 +66,32 @@ if (COPY_FROM_VAULT) {
 } else {
   console.log("In-place mode (GitHub Actions) — skipping vault copy")
 }
+
+// ── 1b. create index.md in every person and project folder ───────────────────
+// Quartz shows a folder listing when there's no index.md — this makes clicking
+// a person or project go directly to their page instead of a file browser.
+
+function createFolderIndex(dir) {
+  if (!fs.existsSync(dir)) return
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name === "done") continue
+    const sub = path.join(dir, entry.name)
+    const main = path.join(sub, entry.name + ".md")
+    const idx  = path.join(sub, "index.md")
+    if (fs.existsSync(main) && !fs.existsSync(idx)) fs.copyFileSync(main, idx)
+    createFolderIndex(sub) // recurse into done/
+  }
+}
+
+const peopleDir   = fs.existsSync(path.join(CONTENT, "Team Members"))
+  ? path.join(CONTENT, "Team Members")
+  : path.join(CONTENT, "people")
+const projectsDir = path.join(CONTENT, "Q2-2026", "projects")
+
+createFolderIndex(peopleDir)
+createFolderIndex(projectsDir)
+// Also handle done/ subfolder
+createFolderIndex(path.join(projectsDir, "done"))
 
 // ── 2. pre-render Meeting Log (DataviewJS) blocks ────────────────────────────
 
@@ -221,7 +247,7 @@ function parseOwners(raw) {
 
 // Collect people metadata for the people index table
 const peopleMeta = []
-for (const f of walkMd(path.join(CONTENT, "people"))) {
+for (const f of walkMd(path.join(CONTENT, fs.existsSync(path.join(CONTENT, "Team Members")) ? "Team Members" : "people"))) {
   const raw = fs.readFileSync(f, "utf8")
   if (!raw.match(/^type:\s*person/m)) continue
   const name = (raw.match(/^name:\s*(.+)$/m) || [])[1]?.trim()

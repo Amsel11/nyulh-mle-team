@@ -16,6 +16,9 @@ NTUSER.DAT*
 content/**/_template.md
 
 # Personal notes — each team member's private files, never pushed
+content/Team Members/*/*[Pp]ersonal*.md
+content/Team Members/*/*[Pp]rivate*.md
+content/Team Members/*/_*.md
 content/people/*/personal*.md
 content/people/*/private*.md
 content/people/*/_*.md

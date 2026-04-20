@@ -1,21 +1,26 @@
 ---
-type: index
+name: Eric Oermann
+type: person
+role: PI / Team Lead
+projects: []
 ---
 
-# People
+# Dr. Eric Oermann
 
-| Person | Role |
-|---|---|
-| [Annelene Schulze](/people/annelene-schulze/annelene-schulze) | MLE Engineer |
-| [Eric Oermann](/people/eric-oermann/eric-oermann) | PI / Team Lead |
-| [Jessica Zhou](/people/jessica-zhou/jessica-zhou) | MLE Engineer |
-| [Qing Wen](/people/qing-wen/qing-wen) | MLE / Data Engineer |
-| [Vivian Lee](/people/vivian-lee/vivian-lee) | MLE Engineer |
-| [Xu Han](/people/xu-han/xu-han) | MLE Engineer |
+**Role:** PI / Team Lead · Tag: `#EKO`
 
----
+## Open Tasks
 
-## Projects by Person
+*Open tasks — static snapshot from last sync:*
+
+**[2026-04-14-weekly-meeting](/Q2-2026/meetings/2026-04-14-weekly-meeting)**
+- [ ] Follow up with PAU team on integration timeline #EKO #medgemma 📅 2026-04-18
+
+**[2026-04-21-weekly-meeting](/Q2-2026/meetings/2026-04-21-weekly-meeting)**
+- [ ] #EKO 📅 2026-04-25
+
+
+## Team Projects Overview
 
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|

@@ -36,6 +36,7 @@ attendees: []
 ---
 
 ## Xu Han
+Was out of the office and had a good time 
 
 ### [[medgemma-deployment|MedGemma Deployment]]
 - 

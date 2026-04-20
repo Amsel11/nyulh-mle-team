@@ -39,24 +39,54 @@ type: dashboard
 - [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
 - [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
 
+**[index](/Q2-2026/projects/datahub-agent/index)**
+- [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
+- [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
+
 **[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination/enroot-guide-dissemination)**
 - [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
 - [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
+
+**[index](/Q2-2026/projects/enroot-guide-dissemination/index)**
+- [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
+- [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
+
+**[index](/Q2-2026/projects/inference-node-user-management/index)**
+- [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
 
 **[inference-node-user-management](/Q2-2026/projects/inference-node-user-management/inference-node-user-management)**
 - [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
 - [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
 
+**[index](/Q2-2026/projects/lang1-finetune/index)**
+- [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
+- [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
+
 **[lang1-finetune](/Q2-2026/projects/lang1-finetune/lang1-finetune)**
 - [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
 - [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
+
+**[index](/Q2-2026/projects/medgemma-deployment/index)**
+- [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
 
 **[medgemma-deployment](/Q2-2026/projects/medgemma-deployment/medgemma-deployment)**
 - [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
 - [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
 
+**[index](/Q2-2026/projects/neuro-data-hub/index)**
+- [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+
 **[neuro-data-hub](/Q2-2026/projects/neuro-data-hub/neuro-data-hub)**
 - [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+
+**[index](/Q2-2026/projects/nyulh-aiehr/index)**
+- [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: STT transcript generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: SOAP note generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
+- [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
 
 **[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr/nyulh-aiehr)**
 - [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
@@ -64,6 +94,10 @@ type: dashboard
 - [ ] Complete evals: SOAP note generation #milestone #aiehr #jessica 📅 2026-05-31
 - [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
 - [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
+
+**[index](/Q2-2026/projects/superpod-dashboard/index)**
+- [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
+- [ ] Superpod usage report complete #milestone #superpod #annelene 📅 2026-06-30
 
 **[superpod-dashboard](/Q2-2026/projects/superpod-dashboard/superpod-dashboard)**
 - [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
@@ -141,12 +175,18 @@ type: dashboard
 
 | Person | Role |
 |---|---|
-| [Annelene Schulze](/people/annelene-schulze/annelene-schulze) | MLE Engineer |
-| [Eric Oermann](/people/eric-oermann/eric-oermann) | PI / Team Lead |
-| [Jessica Zhou](/people/jessica-zhou/jessica-zhou) | MLE Engineer |
-| [Qing Wen](/people/qing-wen/qing-wen) | MLE / Data Engineer |
-| [Vivian Lee](/people/vivian-lee/vivian-lee) | MLE Engineer |
-| [Xu Han](/people/xu-han/xu-han) | MLE Engineer |
+| [Annelene Schulze](/Team Members/annelene-schulze/annelene-schulze) | MLE Engineer |
+| [Annelene Schulze](/Team Members/annelene-schulze/index) | MLE Engineer |
+| [Eric Oermann](/Team Members/eric-oermann/eric-oermann) | PI / Team Lead |
+| [Eric Oermann](/Team Members/eric-oermann/index) | PI / Team Lead |
+| [Jessica Zhou](/Team Members/jessica-zhou/index) | MLE Engineer |
+| [Jessica Zhou](/Team Members/jessica-zhou/jessica-zhou) | MLE Engineer |
+| [Qing Wen](/Team Members/qing-wen/index) | MLE / Data Engineer |
+| [Qing Wen](/Team Members/qing-wen/qing-wen) | MLE / Data Engineer |
+| [Vivian Lee](/Team Members/vivian-lee/index) | MLE Engineer |
+| [Vivian Lee](/Team Members/vivian-lee/vivian-lee) | MLE Engineer |
+| [Xu Han](/Team Members/xu-han/index) | MLE Engineer |
+| [Xu Han](/Team Members/xu-han/xu-han) | MLE Engineer |
 
 ---
 
