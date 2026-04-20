@@ -20,42 +20,42 @@ attendees: []
 
 ---
 
-## [[../projects/enroot-guide-dissemination|Enroot Guide Dissemination]]
+## [[enroot-guide-dissemination|Enroot Guide Dissemination]]
 
 - 
 
-## [[../projects/neuro-data-hub|Neuro Data Hub]]
+## [[neuro-data-hub|Neuro Data Hub]]
 
-### [[../projects/medgemma-deployment|MedGemma Deployment]]
+### [[medgemma-deployment|MedGemma Deployment]]
   - Deployed on second GPU
   - Kong auth layer needs review
   - blaaaaddddd
 
-## [[../projects/medgemma-deployment|MedGemma Deployment]]
+## [[medgemma-deployment|MedGemma Deployment]]
 
 - 
 
-## [[../projects/inference-node-maintenance|Inference Node Maintenance]]
+## [[inference-node-maintenance|Inference Node Maintenance]]
 
 - 
 
-## [[../projects/lang1-finetune|Lang1 Finetune]]
+## [[lang1-finetune|Lang1 Finetune]]
 
 - 
 
-## [[../projects/nyulh-aiehr|NYULH-AIEHR (EKO)]]
+## [[nyulh-aiehr|NYULH-AIEHR (EKO)]]
 
 - 
 
-## [[../projects/superpod-dashboard|Superpod Dashboard]]
+## [[superpod-dashboard|Superpod Dashboard]]
 
 - 
 
-## [[../projects/datahub-agent|Datahub Agent MVP]]
+## [[datahub-agent|Datahub Agent MVP]]
 
 - 
 
-## [[../projects/inference-node-user-management|Inference Node User Management]]
+## [[inference-node-user-management|Inference Node User Management]]
 
 - 
 

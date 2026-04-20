@@ -11,5 +11,13 @@ replit.nix
 content/.obsidian/
 *.pdf
 NTUSER.DAT*
+
+# Personal notes — each team member's private files, never pushed
+content/people/*/personal*.md
+content/people/*/private*.md
+content/people/*/_*.md
+content/Q2-2026/projects/*/personal*.md
+content/Q2-2026/projects/*/private*.md
+content/Q2-2026/projects/*/_*.md
 content/.claude/
 content/*.md.tmp

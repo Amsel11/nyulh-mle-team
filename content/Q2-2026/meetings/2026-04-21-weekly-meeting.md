@@ -17,28 +17,58 @@ attendees: []
 
 *Open tasks — static snapshot from last sync:*
 
+**[datahub-agent](/Q2-2026/projects/datahub-agent/datahub-agent)**
+- [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
+- [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
+
 **[datahub-agent](/Q2-2026/projects/datahub-agent)**
 - [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
 - [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
+
+**[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination/enroot-guide-dissemination)**
+- [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
+- [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
 
 **[enroot-guide-dissemination](/Q2-2026/projects/enroot-guide-dissemination)**
 - [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
 - [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
 
+**[inference-node-user-management](/Q2-2026/projects/inference-node-user-management/inference-node-user-management)**
+- [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
+
 **[inference-node-user-management](/Q2-2026/projects/inference-node-user-management)**
 - [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
 - [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
+
+**[lang1-finetune](/Q2-2026/projects/lang1-finetune/lang1-finetune)**
+- [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
+- [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
 
 **[lang1-finetune](/Q2-2026/projects/lang1-finetune)**
 - [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
 - [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
 
+**[medgemma-deployment](/Q2-2026/projects/medgemma-deployment/medgemma-deployment)**
+- [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
+
 **[medgemma-deployment](/Q2-2026/projects/medgemma-deployment)**
 - [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
 - [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
 
+**[neuro-data-hub](/Q2-2026/projects/neuro-data-hub/neuro-data-hub)**
+- [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+
 **[neuro-data-hub](/Q2-2026/projects/neuro-data-hub)**
 - [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+
+**[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr/nyulh-aiehr)**
+- [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: STT transcript generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: SOAP note generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
+- [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
 
 **[nyulh-aiehr](/Q2-2026/projects/nyulh-aiehr)**
 - [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
@@ -47,7 +77,67 @@ attendees: []
 - [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
 - [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
 
+**[superpod-dashboard](/Q2-2026/projects/superpod-dashboard/superpod-dashboard)**
+- [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
+- [ ] Superpod usage report complete #milestone #superpod #annelene 📅 2026-06-30
+
 **[superpod-dashboard](/Q2-2026/projects/superpod-dashboard)**
+- [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
+- [ ] Superpod usage report complete #milestone #superpod #annelene 📅 2026-06-30
+
+**[README](/README)**
+- [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
+- [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
+- [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
+- [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
+- [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
+- [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
+- [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+- [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: STT transcript generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: SOAP note generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
+- [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
+- [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
+- [ ] Superpod usage report complete #milestone #superpod #annelene 📅 2026-06-30
+- [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
+- [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
+- [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
+- [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
+- [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
+- [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
+- [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+- [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: STT transcript generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: SOAP note generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
+- [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
+- [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
+- [ ] Superpod usage report complete #milestone #superpod #annelene 📅 2026-06-30
+- [ ] Architecture / design complete #milestone #datahub-agent #qing 📅 2026-05-15
+- [ ] MVP built and testable #milestone #datahub-agent #qing 📅 2026-06-30
+- [ ] Finalize HPC documentation with Vivian #milestone #enroot #annelene #vivian 📅 2026-06-30
+- [ ] Documentation published for all NYULH HPC users #milestone #enroot 📅 2026-06-30
+- [ ] Enhanced authentication implemented #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] User base management system in place #milestone #node-mgmt #xu 📅 2026-05-31
+- [ ] Set up Lang1 SFT pipeline #milestone #lang1 #jessica #qing 📅 2026-05-01
+- [ ] Complete Lang1 SFT #milestone #lang1 #jessica #qing 📅 2026-06-30
+- [ ] Integrate MedGemma with PAU team #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Scale up inference node #milestone #medgemma #xu 📅 2026-06-30
+- [ ] Finish 10 datahub requests #milestone #neurodatahub #qing 📅 2026-06-30
+- [ ] Complete evals: patient history generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: STT transcript generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: SOAP note generation #milestone #aiehr #jessica 📅 2026-05-31
+- [ ] Complete evals: CDS/orders generation #milestone #aiehr #jessica 📅 2026-06-15
+- [ ] App built out w/ EKO #milestone #aiehr #jessica 📅 2026-06-30
 - [ ] Superpod dashboard finalized #milestone #superpod #annelene 📅 2026-05-31
 - [ ] Superpod usage report complete #milestone #superpod #annelene 📅 2026-06-30
 
@@ -60,11 +150,11 @@ attendees: []
 
 ## Xu Han
 
-### [[../projects/medgemma-deployment|MedGemma Deployment]]
+### [[medgemma-deployment|MedGemma Deployment]]
 - 
 - [ ] #xu #medgemma 📅 2026-04-25
 
-### [[../projects/inference-node-user-management|Inference Node User Management]]
+### [[inference-node-user-management|Inference Node User Management]]
 - 
 - [ ] #xu #node-mgmt 📅 2026-04-25
 
@@ -72,7 +162,7 @@ attendees: []
 
 ## Vivian Lee
 
-### [[../projects/enroot-guide-dissemination|Enroot Guide Dissemination]]
+### [[enroot-guide-dissemination|Enroot Guide Dissemination]]
 - 
 - [ ] #vivian #enroot 📅 2026-04-25
 
@@ -80,11 +170,11 @@ attendees: []
 
 ## Qing Wen
 
-### [[../projects/neuro-data-hub|Neuro Data Hub]]
+### [[neuro-data-hub|Neuro Data Hub]]
 - 
 - [ ] #qing #neurodatahub 📅 2026-04-25
 
-### [[../projects/datahub-agent|Datahub Agent MVP]]
+### [[datahub-agent|Datahub Agent MVP]]
 - 
 - [ ] #qing #datahub-agent 📅 2026-04-25
 
@@ -92,11 +182,11 @@ attendees: []
 
 ## Jessica Zhou
 
-### [[../projects/nyulh-aiehr|NYULH-AIEHR (EKO)]]
+### [[nyulh-aiehr|NYULH-AIEHR (EKO)]]
 - 
 - [ ] #jessica #aiehr 📅 2026-04-25
 
-### [[../projects/lang1-finetune|Lang1 Finetune]]
+### [[lang1-finetune|Lang1 Finetune]]
 - 
 - [ ] #jessica #lang1 📅 2026-04-25
 
@@ -104,11 +194,11 @@ attendees: []
 
 ## Annelene Schulze
 
-### [[../projects/superpod-dashboard|Superpod Dashboard]]
+### [[superpod-dashboard|Superpod Dashboard]]
 - 
 - [ ] #annelene #superpod 📅 2026-04-25
 
-### [[../projects/enroot-guide-dissemination|Enroot Guide Dissemination]]
+### [[enroot-guide-dissemination|Enroot Guide Dissemination]]
 - 
 - [ ] #annelene #enroot 📅 2026-04-25
 
@@ -124,6 +214,6 @@ attendees: []
 
 ## New Projects / Other
 
-### [[../projects/new-slug|Project Name]]
+### [[new-slug|Project Name]]
 - 
 > Add tasks: `- [ ] description #person #new-tag 📅 YYYY-MM-DD`

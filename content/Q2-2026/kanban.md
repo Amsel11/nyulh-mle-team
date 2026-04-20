@@ -1,27 +1,21 @@
 ---
-type: index
+type: project-board
 ---
 
-# People
+# Project Board
 
-| Person | Role |
-|---|---|
-| [Annelene Schulze](/people/annelene-schulze/annelene-schulze) | MLE Engineer |
-| [Annelene Schulze](/people/annelene-schulze) | MLE Engineer |
-| [Eric Oermann](/people/eric-oermann/eric-oermann) | PI / Team Lead |
-| [Eric Oermann](/people/eric-oermann) | PI / Team Lead |
-| [Jessica Zhou](/people/jessica-zhou/jessica-zhou) | MLE Engineer |
-| [Jessica Zhou](/people/jessica-zhou) | MLE Engineer |
-| [Qing Wen](/people/qing-wen/qing-wen) | MLE / Data Engineer |
-| [Qing Wen](/people/qing-wen) | MLE / Data Engineer |
-| [Vivian Lee](/people/vivian-lee/vivian-lee) | MLE Engineer |
-| [Vivian Lee](/people/vivian-lee) | MLE Engineer |
-| [Xu Han](/people/xu-han/xu-han) | MLE Engineer |
-| [Xu Han](/people/xu-han) | MLE Engineer |
+> Change `status:` in any project file to move it between columns automatically.
+> New project? Create a file with `status: planned` → it appears here immediately.
 
 ---
 
-## Projects by Person
+## Planned
+
+> *No projects found.*
+
+---
+
+## In Progress
 
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|
@@ -43,3 +37,14 @@ type: index
 | [NYULH-AIEHR (EKO)](/Q2-2026/projects/nyulh-aiehr) | Jessica Zhou | 2026-05-01 | 2026-06-30 | ongoing |
 | [Superpod Dashboard](/Q2-2026/projects/superpod-dashboard/superpod-dashboard) | Annelene Schulze | 2026-06-01 | 2026-06-30 | ongoing |
 | [Superpod Dashboard](/Q2-2026/projects/superpod-dashboard) | Annelene Schulze | 2026-06-01 | 2026-06-30 | ongoing |
+
+---
+
+## Done
+
+| Project | Owner(s) | Start | End | Status |
+|---|---|---|---|---|
+| [NYULH Image Database Benchmark](/Q2-2026/projects/done/nyulh-image-database-benchmark/nyulh-image-database-benchmark) | Xu Han | 2025-12-01 | 2026-02-28 | done |
+| [NYULH Image Database Benchmark](/Q2-2026/projects/done/nyulh-image-database-benchmark) | Xu Han | 2025-12-01 | 2026-02-28 | done |
+| [Refactor Inference Node](/Q2-2026/projects/done/refactor-inference-node/refactor-inference-node) | Xu Han | 2026-01-01 | 2026-02-28 | done |
+| [Refactor Inference Node](/Q2-2026/projects/done/refactor-inference-node) | Xu Han | 2026-01-01 | 2026-02-28 | done |

@@ -47,9 +47,13 @@ function frontmatterDate(text, filename) {
 
 if (COPY_FROM_VAULT) {
   console.log("Copying vault…")
-  copyDir(VAULT, CONTENT, [/^\.obsidian$/, /\.pdf$/, /^Welcome\.md$/])
+  copyDir(VAULT, CONTENT, [/^\.obsidian$/, /\.pdf$/, /^Welcome\.md$/, /^NTUSER/])
+
+  // MAIN Dashboard.md or README.md → index.md (homepage)
+  const dashboard = path.join(CONTENT, "MAIN Dashboard.md")
   const readme = path.join(CONTENT, "README.md")
-  if (fs.existsSync(readme)) fs.copyFileSync(readme, path.join(CONTENT, "index.md"))
+  if (fs.existsSync(dashboard)) fs.copyFileSync(dashboard, path.join(CONTENT, "index.md"))
+  else if (fs.existsSync(readme)) fs.copyFileSync(readme, path.join(CONTENT, "index.md"))
 } else {
   console.log("In-place mode (GitHub Actions) — skipping vault copy")
 }
@@ -63,7 +67,13 @@ const allMeetings = walkMd(CONTENT)
   .filter((f) => !path.basename(f).startsWith("_"))
 
 const projectFiles = walkMd(path.join(CONTENT, "Q2-2026", "projects"))
-  .filter((f) => !["_index.md", "kanban.md"].includes(path.basename(f)))
+  .filter((f) => {
+    const name = path.basename(f)
+    if (["_index.md", "kanban.md"].includes(name)) return false
+    // Only include the "main" file: slug/slug.md (not personal notes)
+    const slug = path.basename(path.dirname(f))
+    return name === slug + ".md" || path.dirname(f) === path.join(CONTENT, "Q2-2026", "projects")
+  })
 
 for (const projFile of projectFiles) {
   let text = fs.readFileSync(projFile, "utf8")
