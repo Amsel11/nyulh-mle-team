@@ -47,7 +47,7 @@ function frontmatterDate(text, filename) {
 
 if (COPY_FROM_VAULT) {
   console.log("Copying vault…")
-  copyDir(VAULT, CONTENT, [/^\.obsidian$/, /\.pdf$/, /^Welcome\.md$/, /^NTUSER/])
+  copyDir(VAULT, CONTENT, [/^\.obsidian$/, /\.pdf$/, /^Welcome\.md$/, /^NTUSER/, /^README\.md$/])
 
   // MAIN Dashboard.md or README.md → index.md (homepage)
   const dashboard = path.join(CONTENT, "MAIN Dashboard.md")
@@ -331,12 +331,15 @@ function generateGantt(projects) {
   const clickLines = []
   let idx = 0
 
+  // Mermaid uses : as separator — strip it from all names
+  const safeName = (s) => s.replace(/:/g, "-").replace(/[^\w\s\-\/()]/g, "").substring(0, 30).trim()
+
   for (const [owner, projs] of Object.entries(byOwner).sort()) {
     lines.push(`    section ${owner}`)
     for (const p of projs.sort((a, b) => (a.start || "").localeCompare(b.start || ""))) {
       const id = `t${idx++}`
       const donePrefix = p.status === "done" ? "done, " : ""
-      lines.push(`    ${p.name.substring(0, 32).padEnd(32)}:${donePrefix}${id}, ${p.start}, ${p.end}`)
+      lines.push(`    ${safeName(p.name).padEnd(30)}  :${donePrefix}${id}, ${p.start}, ${p.end}`)
       clickLines.push(`    click ${id} href "/${p.rel}"`)
     }
     lines.push("")
@@ -347,7 +350,7 @@ function generateGantt(projects) {
     uniqueMilestones
       .sort((a, b) => a.date.localeCompare(b.date))
       .forEach((m, i) => {
-        lines.push(`    ${m.text.substring(0, 32).padEnd(32)}:milestone, ms${i}, ${m.date}, 0d`)
+        lines.push(`    ${safeName(m.text).padEnd(30)}  :milestone, ms${i}, ${m.date}, 1d`)
       })
     lines.push("")
   }

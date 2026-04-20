@@ -12,6 +12,9 @@ content/.obsidian/
 *.pdf
 NTUSER.DAT*
 
+# Meeting templates — local only, not published
+content/**/_template.md
+
 # Personal notes — each team member's private files, never pushed
 content/people/*/personal*.md
 content/people/*/private*.md
