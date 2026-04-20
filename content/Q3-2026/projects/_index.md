@@ -19,4 +19,4 @@ quarter: Q3-2026
 | [MedGemma Deployment](/Q2-2026/projects/medgemma-deployment) | Xu Han | 2026-02-01 | 2026-06-30 | ongoing |
 | [Neuro Data Hub](/Q2-2026/projects/neuro-data-hub) | Qing Wen | 2026-01-01 | 2026-06-30 | ongoing |
 | [NYULH-AIEHR (EKO)](/Q2-2026/projects/nyulh-aiehr) | Jessica Zhou | 2026-05-01 | 2026-06-30 | ongoing |
-| [Superpod Dashboard](/Q2-2026/projects/superpod-dashboard) | — | 2026-06-01 | 2026-06-30 | ongoing |
+| [Superpod Dashboard](/Q2-2026/projects/superpod-dashboard) | Annelene Schulze | 2026-06-01 | 2026-06-30 | ongoing |

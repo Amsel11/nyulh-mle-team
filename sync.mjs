@@ -178,18 +178,51 @@ for (const f of walkMd(CONTENT)) {
 
 console.log("Rendering dataview tables…")
 
-const projectMeta = []
-for (const f of walkMd(path.join(CONTENT))) {
+// Parse owners from both YAML formats:
+//   inline:  owners: [Xu Han, Vivian Lee]
+//   block:   owners:\n  - Xu Han\n  - Vivian Lee
+function parseOwners(raw) {
+  const inline = raw.match(/^owners:\s*\[(.+)\]$/m)
+  if (inline) return inline[1].split(",").map((s) => s.trim())
+  const block = raw.match(/^owners:\s*\n((?:[ \t]+-[ \t]+.+\n?)+)/m)
+  if (block) return [...block[1].matchAll(/^\s+-\s+(.+)$/gm)].map((m) => m[1].trim())
+  return []
+}
+
+// Collect people metadata for the people index table
+const peopleMeta = []
+for (const f of walkMd(path.join(CONTENT, "people"))) {
   const raw = fs.readFileSync(f, "utf8")
-  const typeM = raw.match(/^type:\s*project/m)
-  if (!typeM) continue
+  if (!raw.match(/^type:\s*person/m)) continue
+  const name = (raw.match(/^name:\s*(.+)$/m) || [])[1]?.trim()
+  const role = (raw.match(/^role:\s*(.+)$/m) || [])[1]?.trim()
+  const rel = path.relative(CONTENT, f).replace(/\\/g, "/").replace(/\.md$/, "")
+  if (name) peopleMeta.push({ name, role, rel })
+}
+
+const projectMeta = []
+for (const f of walkMd(CONTENT)) {
+  const raw = fs.readFileSync(f, "utf8")
+  if (!raw.match(/^type:\s*project/m)) continue
   const name = (raw.match(/^name:\s*(.+)$/m) || [])[1]?.trim()
   const status = (raw.match(/^status:\s*(.+)$/m) || [])[1]?.trim()
-  const owners = (raw.match(/^owners:\s*\[(.+)\]$/m) || [])[1]?.trim()
+  const owners = parseOwners(raw)
   const start = (raw.match(/^start:\s*(.+)$/m) || [])[1]?.trim()
   const end = (raw.match(/^end:\s*(.+)$/m) || [])[1]?.trim()
   const rel = path.relative(CONTENT, f).replace(/\\/g, "/").replace(/\.md$/, "")
   if (name) projectMeta.push({ name, status, owners, start, end, rel })
+}
+
+function projectTable(rows) {
+  if (rows.length === 0) return "> *No projects found.*"
+  return [
+    "| Project | Owner(s) | Start | End | Status |",
+    "|---|---|---|---|---|",
+    ...rows.map(
+      (p) =>
+        `| [${p.name}](/${p.rel}) | ${p.owners.join(", ") || "—"} | ${p.start ?? "—"} | ${p.end ?? "—"} | ${p.status ?? "—"} |`
+    ),
+  ].join("\n")
 }
 
 for (const f of walkMd(CONTENT)) {
@@ -198,27 +231,38 @@ for (const f of walkMd(CONTENT)) {
 
   text = text.replace(/```dataview\n([\s\S]*?)```/g, (_, query) => {
     const isProjectQuery = query.includes('type = "project"') || query.includes("type = 'project'")
-    if (!isProjectQuery) return `> *Live query — open in Obsidian to view.*`
+    const isPeopleQuery = query.includes('type = "person"') || query.includes("FROM \"people\"")
 
+    // People directory table
+    if (isPeopleQuery && !isProjectQuery) {
+      if (peopleMeta.length === 0) return "> *No people found.*"
+      return [
+        "| Person | Role |",
+        "|---|---|",
+        ...peopleMeta.sort((a, b) => a.name.localeCompare(b.name)).map(
+          (p) => `| [${p.name}](/${p.rel}) | ${p.role ?? "—"} |`
+        ),
+      ].join("\n")
+    }
+
+    // Projects-by-person cross-table (people _index)
+    if (!isProjectQuery && query.includes("owners")) {
+      return projectTable(projectMeta.filter((p) => p.status === "ongoing").sort((a, b) => a.name.localeCompare(b.name)))
+    }
+
+    if (!isProjectQuery) return "> *Live query — open in Obsidian to view.*"
+
+    // Project table with optional filters
     const statusFilter = (query.match(/status = "(\w+)"/) || [])[1]
     const ownerFilter = (query.match(/contains\(owners, "([^"]+)"\)/) || [])[1]
 
-    let rows = projectMeta.filter((p) => {
+    const rows = projectMeta.filter((p) => {
       if (statusFilter && p.status !== statusFilter) return false
-      if (ownerFilter && !p.owners?.includes(ownerFilter)) return false
+      if (ownerFilter && !p.owners.includes(ownerFilter)) return false
       return true
     })
 
-    if (rows.length === 0) return "> *No projects found.*"
-
-    const lines = [
-      "| Project | Owner(s) | Start | End | Status |",
-      "|---|---|---|---|---|",
-      ...rows.map(
-        (p) => `| [${p.name}](/${p.rel}) | ${p.owners ?? "—"} | ${p.start ?? "—"} | ${p.end ?? "—"} | ${p.status ?? "—"} |`
-      ),
-    ]
-    return lines.join("\n")
+    return projectTable(rows)
   })
 
   fs.writeFileSync(f, text)

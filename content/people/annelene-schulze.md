@@ -14,6 +14,7 @@ projects: [enroot-guide-dissemination, superpod-dashboard]
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|
 | [Enroot Guide Dissemination](/Q2-2026/projects/enroot-guide-dissemination) | Vivian Lee, Annelene Schulze | 2026-01-01 | 2026-06-30 | ongoing |
+| [Superpod Dashboard](/Q2-2026/projects/superpod-dashboard) | Annelene Schulze | 2026-06-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 
