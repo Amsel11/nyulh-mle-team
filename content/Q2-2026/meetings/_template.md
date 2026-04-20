@@ -1,11 +1,12 @@
 ---
 date: <% tp.date.now("YYYY-MM-DD") %>
 week: <% tp.date.now("[W]WW") %>
+week_of_quarter: <% Math.floor((parseInt(tp.date.now("DDD")) - 91) / 7) + 1 %>
 type: weekly-meeting
 attendees: []
 ---
 
-# Weekly Meeting · <% tp.date.now("MMMM D, YYYY") %>
+# <% tp.date.now("YY-MM-DD") %> Weekly · Q2 Week <% Math.floor((parseInt(tp.date.now("DDD")) - 91) / 7) + 1 %> / 13
 
 **Attendees:**
 
@@ -13,7 +14,7 @@ attendees: []
 
 ## Review — Open from Last Week
 
-> Check off completed items. Anything still open stays visible next week.
+> Each project below is collapsible — click the heading arrow to fold/unfold.
 
 *Open tasks — static snapshot from last sync:*
 

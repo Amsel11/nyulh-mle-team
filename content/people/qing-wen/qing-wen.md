@@ -14,11 +14,8 @@ projects: [neuro-data-hub, lang1-finetune, datahub-agent]
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|
 | [Datahub Agent MVP](/Q2-2026/projects/datahub-agent/datahub-agent) | Qing Wen | 2026-04-01 | 2026-06-30 | ongoing |
-| [Datahub Agent MVP](/Q2-2026/projects/datahub-agent) | Qing Wen | 2026-04-01 | 2026-06-30 | ongoing |
 | [Lang1 Finetune](/Q2-2026/projects/lang1-finetune/lang1-finetune) | Jessica Zhou, Qing Wen | 2026-03-01 | 2026-06-30 | ongoing |
-| [Lang1 Finetune](/Q2-2026/projects/lang1-finetune) | Jessica Zhou, Qing Wen | 2026-03-01 | 2026-06-30 | ongoing |
 | [Neuro Data Hub](/Q2-2026/projects/neuro-data-hub/neuro-data-hub) | Qing Wen | 2026-01-01 | 2026-06-30 | ongoing |
-| [Neuro Data Hub](/Q2-2026/projects/neuro-data-hub) | Qing Wen | 2026-01-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 

@@ -14,9 +14,7 @@ projects: [lang1-finetune, nyulh-aiehr]
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|
 | [Lang1 Finetune](/Q2-2026/projects/lang1-finetune/lang1-finetune) | Jessica Zhou, Qing Wen | 2026-03-01 | 2026-06-30 | ongoing |
-| [Lang1 Finetune](/Q2-2026/projects/lang1-finetune) | Jessica Zhou, Qing Wen | 2026-03-01 | 2026-06-30 | ongoing |
 | [NYULH-AIEHR (EKO)](/Q2-2026/projects/nyulh-aiehr/nyulh-aiehr) | Jessica Zhou | 2026-05-01 | 2026-06-30 | ongoing |
-| [NYULH-AIEHR (EKO)](/Q2-2026/projects/nyulh-aiehr) | Jessica Zhou | 2026-05-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 

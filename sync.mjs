@@ -214,6 +214,10 @@ const projectMeta = []
 for (const f of walkMd(CONTENT)) {
   const raw = fs.readFileSync(f, "utf8")
   if (!raw.match(/^type:\s*project/m)) continue
+  // Only use canonical files: slug/slug.md (skip leftover flat files from old syncs)
+  const slug = path.basename(f, ".md")
+  const parentDir = path.basename(path.dirname(f))
+  if (slug !== parentDir) continue
   const name = (raw.match(/^name:\s*(.+)$/m) || [])[1]?.trim()
   const status = (raw.match(/^status:\s*(.+)$/m) || [])[1]?.trim()
   const owners = parseOwners(raw)
@@ -276,6 +280,96 @@ for (const f of walkMd(CONTENT)) {
   })
 
   fs.writeFileSync(f, text)
+}
+
+// ── 5. auto-generate Gantt from project frontmatter ──────────────────────────
+
+console.log("Generating Gantt…")
+
+function generateGantt(projects) {
+  // Group ongoing projects by each owner's first name
+  const byOwner = {}
+  for (const p of projects) {
+    if (!p.start || !p.end) continue
+    for (const owner of p.owners) {
+      const first = owner.split(" ")[0]
+      if (!byOwner[first]) byOwner[first] = []
+      if (!byOwner[first].find((x) => x.rel === p.rel)) byOwner[first].push(p)
+    }
+  }
+
+  // Collect milestone tasks from project files
+  const milestones = []
+  const milestoneRe = /^- \[.\] (.+) 📅\s*(\d{4}-\d{2}-\d{2})/gm
+  for (const f of walkMd(CONTENT)) {
+    const raw = fs.readFileSync(f, "utf8")
+    if (!raw.includes("#milestone")) continue
+    for (const m of raw.matchAll(milestoneRe)) {
+      if (!m[0].includes("#milestone")) continue
+      // Strip tags (#word) from description
+      const text = m[1].replace(/\s+#\S+/g, "").trim()
+      milestones.push({ text, date: m[2] })
+    }
+  }
+  // Deduplicate milestones by text+date
+  const seenMs = new Set()
+  const uniqueMilestones = milestones.filter((m) => {
+    const key = m.text + m.date
+    if (seenMs.has(key)) return false
+    seenMs.add(key)
+    return true
+  })
+
+  const lines = [
+    "```mermaid",
+    "gantt",
+    "    title NYULH MLE Team — Q2 2026",
+    "    dateFormat YYYY-MM-DD",
+    "    axisFormat %b %d",
+    "",
+  ]
+  const clickLines = []
+  let idx = 0
+
+  for (const [owner, projs] of Object.entries(byOwner).sort()) {
+    lines.push(`    section ${owner}`)
+    for (const p of projs.sort((a, b) => (a.start || "").localeCompare(b.start || ""))) {
+      const id = `t${idx++}`
+      const donePrefix = p.status === "done" ? "done, " : ""
+      lines.push(`    ${p.name.substring(0, 32).padEnd(32)}:${donePrefix}${id}, ${p.start}, ${p.end}`)
+      clickLines.push(`    click ${id} href "/${p.rel}"`)
+    }
+    lines.push("")
+  }
+
+  if (uniqueMilestones.length > 0) {
+    lines.push("    section Milestones")
+    uniqueMilestones
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .forEach((m, i) => {
+        lines.push(`    ${m.text.substring(0, 32).padEnd(32)}:milestone, ms${i}, ${m.date}, 0d`)
+      })
+    lines.push("")
+  }
+
+  lines.push(...clickLines)
+  lines.push("```")
+  return lines.join("\n")
+}
+
+const ongoingProjects = projectMeta.filter((p) => p.status !== undefined)
+const ganttBlock = generateGantt(ongoingProjects)
+
+// Find tracker file and replace between sentinel comments
+for (const f of walkMd(CONTENT)) {
+  let text = fs.readFileSync(f, "utf8")
+  if (!text.includes("<!-- gantt:auto -->")) continue
+  const before = text.indexOf("<!-- gantt:auto -->") + "<!-- gantt:auto -->".length
+  const after = text.indexOf("<!-- /gantt:auto -->")
+  if (after === -1) continue
+  text = text.slice(0, before) + "\n" + ganttBlock + "\n" + text.slice(after)
+  fs.writeFileSync(f, text)
+  console.log(`  Updated gantt in ${path.relative(CONTENT, f)}`)
 }
 
 console.log("✓ Sync complete — run `npx quartz build` to publish")

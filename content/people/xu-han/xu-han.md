@@ -14,15 +14,10 @@ projects: [medgemma-deployment, inference-node-maintenance, inference-node-user-
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|
 | [NYULH Image Database Benchmark](/Q2-2026/projects/done/nyulh-image-database-benchmark/nyulh-image-database-benchmark) | Xu Han | 2025-12-01 | 2026-02-28 | done |
-| [NYULH Image Database Benchmark](/Q2-2026/projects/done/nyulh-image-database-benchmark) | Xu Han | 2025-12-01 | 2026-02-28 | done |
 | [Refactor Inference Node](/Q2-2026/projects/done/refactor-inference-node/refactor-inference-node) | Xu Han | 2026-01-01 | 2026-02-28 | done |
-| [Refactor Inference Node](/Q2-2026/projects/done/refactor-inference-node) | Xu Han | 2026-01-01 | 2026-02-28 | done |
 | [Inference Node Maintenance](/Q2-2026/projects/inference-node-maintenance/inference-node-maintenance) | Xu Han | 2026-02-01 | 2026-12-31 | ongoing |
-| [Inference Node Maintenance](/Q2-2026/projects/inference-node-maintenance) | Xu Han | 2026-02-01 | 2026-12-31 | ongoing |
 | [Inference Node User Management](/Q2-2026/projects/inference-node-user-management/inference-node-user-management) | Xu Han | 2026-04-01 | 2026-05-31 | ongoing |
-| [Inference Node User Management](/Q2-2026/projects/inference-node-user-management) | Xu Han | 2026-04-01 | 2026-05-31 | ongoing |
 | [MedGemma Deployment](/Q2-2026/projects/medgemma-deployment/medgemma-deployment) | Xu Han | 2026-02-01 | 2026-06-30 | ongoing |
-| [MedGemma Deployment](/Q2-2026/projects/medgemma-deployment) | Xu Han | 2026-02-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 

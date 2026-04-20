@@ -14,7 +14,6 @@ projects: [enroot-guide-dissemination]
 | Project | Owner(s) | Start | End | Status |
 |---|---|---|---|---|
 | [Enroot Guide Dissemination](/Q2-2026/projects/enroot-guide-dissemination/enroot-guide-dissemination) | Vivian Lee, Annelene Schulze | 2026-01-01 | 2026-06-30 | ongoing |
-| [Enroot Guide Dissemination](/Q2-2026/projects/enroot-guide-dissemination) | Vivian Lee, Annelene Schulze | 2026-01-01 | 2026-06-30 | ongoing |
 
 ## Open Tasks
 
